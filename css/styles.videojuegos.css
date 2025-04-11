@@ -1,20 +1,20 @@
 body {
-    background: url('../img/background.jpg') no-repeat center center fixed; /* Fondo de la web */
+    background: url('../img/controles-videojuegos-enmarcados-estilo-neon-pared-ladrillo_24908-58914.avif') no-repeat center center fixed; /* Fondo de la web */
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
-    color: #ffffff;
+    color: #d3d3d3; /* Color gris claro para el texto general */
     margin: 0;
     padding: 0;
 }
 
 .fuente {
     font-size: 50px;
-    color: rgb(14, 23, 32);
+    color: #ffffff; /* Título principal en blanco */
     margin-top: 100px;
 }
 
 .dinero {
-    color: blueviolet;
+    color: #ffcc00; /* Precio destacado en dorado */
     margin-top: 10px;
 }
 
@@ -36,9 +36,123 @@ body {
 
 .historia {
     text-align: left; /* Alinea el texto a la izquierda */
-    font-size: 1.2rem; /* Aumenta el tamaño del texto */
+    font-size: 1.5rem; /* Aumenta el tamaño del texto */
     line-height: 1.8; /* Mejora el espaciado entre líneas */
+    color: #ffffff; /* Cambia el color del texto a blanco */
     background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el texto */
     padding: 15px; /* Añade espacio interno al texto */
     border-radius: 10px; /* Bordes redondeados para el fondo */
 }
+
+.container h2 {
+    font-size: 2.5rem;
+    color: #ffffff; /* Título de la descripción en blanco */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.row p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.row.text-light p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #ffffff; /* Texto de la descripción en blanco */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: -80px; /* Sube la descripción hacia arriba */
+}
+
+.cart {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar el cuadro */
+    text-align: center; /* Centra el contenido del formulario */
+    position: relative; /* Permite ajustar la posición */
+    top: -120px; /* Sube el formulario más arriba */
+    right: 100px; /* Mueve más hacia la izquierda */
+    width: 90%; /* Ajusta el ancho del formulario */
+    margin-left: auto; /* Centra horizontalmente */
+    margin-right: 0; /* Alinea hacia la derecha */
+}
+
+.cart h4 {
+    color: #ffcc00; /* Título en dorado */
+    font-size: 1.5rem;
+}
+
+.cart .quantity input {
+    color: #ffffff; /* Texto blanco */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    border: 1px solid #ffffff; /* Borde blanco */
+}
+
+.cart .btn {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+}
+
+.cart .btn-warning {
+    background-color: #ffcc00; /* Botón amarillo */
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #121212; /* Fondo oscuro */
+    color: #d3d3d3; /* Texto gris claro */
+    padding: 20px 0; /* Espaciado interno */
+    display: flex; /* Usa flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+footer p {
+    font-size: 1.5rem; /* Ajusta el tamaño del texto */
+    font-weight: bold; /* Resalta el texto */
+    margin: 0; /* Elimina márgenes adicionales */
+    color: #ffffff; /* Texto en blanco */
+}
+
+footer h5 {
+    color: #ffffff; /* Títulos en blanco */
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+    text-align: center; /* Alinea el título a la derecha */
+}
+
+footer ul {
+    padding: 0; /* Elimina el padding del ul */
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+footer ul li {
+    text-align: center; /* Alinea los elementos de la lista a la derecha */
+}
+
+footer ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #d3d3d3; /* Color gris claro */
+}
+
+footer ul li a:hover {
+    color: #ffcc00; /* Cambia a dorado al pasar el cursor */
+}
+
+.footer-logo {
+    max-width: 25%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
