@@ -42,7 +42,7 @@ header {
 
 header .display-4 {
     font-size: 3.5rem;
-    color : #ffffff; /* Texto blanco para contraste */
+    color : #ff0048; /* Texto blanco para contraste */
 }
 
 header .lead {
