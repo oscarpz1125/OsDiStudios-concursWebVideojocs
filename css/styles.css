@@ -37,17 +37,18 @@ header {
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
-    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    text-shadow: 2px 2px 8px rgb(2, 2, 2);
 }
 
 header .display-4 {
     font-size: 3.5rem;
-    color : #ff0048; /* Texto blanco para contraste */
+    color : #fefefe; /* Texto fuxia para contraste */
 }
 
 header .lead {
     font-size: 1.5rem;
     font-weight: 400;
+    color: rgb(255, 255, 255);
 }
 
 /* Estilo para el contenido principal */
