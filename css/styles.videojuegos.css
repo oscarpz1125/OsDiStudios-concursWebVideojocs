@@ -11,13 +11,16 @@ body {
     font-size: 50px;
     color: #ffffff; /* Título principal en blanco */
     margin-top: 100px;
+    margin-left: 50px;
 }
 
 .dinero {
     color: #ffcc00; /* Precio destacado en dorado */
     margin-top: 10px;
 }
-
+.dinero2{
+    margin-top: 10px;
+}
 .foto {
     margin-left: 100px;
     margin-top: 100px;
@@ -28,10 +31,17 @@ body {
 }
 
 .img-fluid {
-    max-width: 80%; /* Reduce el tamaño de la imagen */
-    height: auto;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
     border: 2px solid #ffffff;
     border-radius: 10px;
+}
+
+img[alt="Minecraft"] {
+    width: 70%; /* Aumenta el tamaño de la imagen al 70% del contenedor */
+    max-width: none; /* Permite que la imagen exceda el tamaño predeterminado */
+    height: auto; /* Mantiene la proporción */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 .historia {
@@ -77,7 +87,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar el cuadro */
     text-align: center; /* Centra el contenido del formulario */
     position: relative; /* Permite ajustar la posición */
-    top: -80px; /* Sube el formulario más arriba */
+    top: -90px; /* Sube el formulario más arriba */
     right: 100px; /* Mueve más hacia la izquierda */
     width: 90%; /* Ajusta el ancho del formulario */
     margin-left: auto; /* Centra horizontalmente */
@@ -156,3 +166,8 @@ footer ul li a:hover {
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
+.margen5{
+    margin-left: 500px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
