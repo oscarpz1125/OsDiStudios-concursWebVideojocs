@@ -9,7 +9,16 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+.boton{
+    display: inline-block;
+    background-color: #E1306C; /* Color característico de Instagram */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 .bg-overlay {
     background-color: rgba(0, 0, 0, 0.7); /* Si no necesitas esta capa, puedes eliminarla */
 }
