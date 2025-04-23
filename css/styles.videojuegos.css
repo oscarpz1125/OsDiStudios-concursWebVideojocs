@@ -10,20 +10,21 @@ body {
 .fuente {
     font-size: 50px;
     color: #ffffff; /* Título principal en blanco */
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 300px;
 }
 
 .dinero {
     color: #ffcc00; /* Precio destacado en dorado */
     margin-top: 10px;
+    margin-right: 300px;
 }
 .dinero2{
-    margin-top: 10px;
     color: #d3d3d3;
+    margin-right: 300px;
 }
 .margen10{
-    margin-bottom: 50px;
+    margin-right: 350px;
 }
 .foto {
     margin-left: 100px;

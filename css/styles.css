@@ -47,16 +47,15 @@ header {
     background-position: center;
     padding: 5rem 0;
     text-shadow: 2px 2px 8px rgb(2, 2, 2);
-    filter: blur(4px); /* Desenfoque de fondo */
     position: relative; /* Para posicionar el contenido sobre el fondo */
 }
 
-header .display-4 {
+.display-4 {
     font-size: 3.5rem;
-    color : #fefefe; /* Texto fuxia para contraste */
+    color : #fffcfc; /* Texto fuxia para contraste */
 }
 
-header .lead {
+.lead {
     font-size: 1.5rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
