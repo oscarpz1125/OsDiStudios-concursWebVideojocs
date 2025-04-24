@@ -1,5 +1,5 @@
 body {
-    background: url('../img/controles-videojuegos-enmarcados-estilo-neon-pared-ladrillo_24908-58914.avif') no-repeat center center fixed; /* Fondo de la web */
+    background: url('../img/fondo.jpg') no-repeat center center fixed; /* Fondo de la web */
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
     color: #d3d3d3; /* Color gris claro para el texto general */
@@ -11,20 +11,20 @@ body {
     font-size: 50px;
     color: #ffffff; /* Título principal en blanco */
     margin-top: 20px;
-    margin-right: 300px;
+    margin-right: -50px;
 }
 
 .dinero {
     color: #ffcc00; /* Precio destacado en dorado */
     margin-top: 10px;
-    margin-right: 300px;
+    margin-right: -50px;
 }
 .dinero2{
     color: #d3d3d3;
-    margin-right: 300px;
+    margin-right: -50px;
 }
 .margen10{
-    margin-right: 350px;
+    margin-right: -50px;
 }
 .foto {
     margin-left: 100px;
