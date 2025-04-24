@@ -42,17 +42,17 @@ body {
 }
 
 header {
-    background-image: url('../img/background.webp'); /* Ruta de la imagen de fondo */
+    background-image: url('../img/pacman.webp'); /* Ruta de la imagen de fondo */
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
-    text-shadow: 2px 2px 8px rgb(2, 2, 2);
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
     position: relative; /* Para posicionar el contenido sobre el fondo */
 }
 
 .display-4 {
     font-size: 3.5rem;
-    color : #fffcfc; /* Texto fuxia para contraste */
+    color : #fffffffe; /* Texto fuxia para contraste */
 }
 
 .lead {
