@@ -13,7 +13,7 @@ body {
 .fuente {
     font-size: 50px;
     color: #ffffff; /* Título principal en blanco */
-    margin-top: 20px;
+    margin-top: 4px;
     margin-left: 100px;
 }
 
@@ -99,7 +99,7 @@ img[alt="Minecraft"] {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar el cuadro */
     text-align: center; /* Centra el contenido del formulario */
     position: relative; /* Permite ajustar la posición */
-    top: -40px; /* Sube el formulario más arriba */
+    top: -90px; /* Sube el formulario más arriba */
     right: 100px; /* Mueve más hacia la izquierda */
     width: 90%; /* Ajusta el ancho del formulario */
     margin-left: auto; /* Centra horizontalmente */
