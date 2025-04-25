@@ -176,3 +176,55 @@ footer ul li a:hover {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+.video-container {
+position: relative;
+width: 90%;/* Usa el 90% del ancho del contenedor */
+max-width: 1000px;/* Más ancho que antes */
+margin: 40px auto;/* Centrado */
+padding-top: 42%;/* Más corto (menor que 56.25% para que no sea tan alto) */
+}
+.video-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: none;
+border-radius: 12px;
+box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+select.form-control {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #4b4b4b;
+}
+textarea.form-control, input.form-control {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #555;
+}
+
+.reseñas {
+    color: #ffffff; /* Cambia el texto de las reseñas a blanco */
+    text-align: center; /* Centra el texto */
+    margin-top: 20px; /* Añade espacio superior */
+}
+
+.reseñas h5 {
+    font-weight: bold; /* Resalta el nombre del autor */
+    margin-bottom: 10px; /* Espaciado inferior entre el nombre y el comentario */
+}
+
+.reseñas p {
+    font-size: 1rem; /* Ajusta el tamaño del texto */
+    line-height: 1.6; /* Mejora el espaciado entre líneas */
+}
+
+.reseñas hr {
+    border-color: #ffffff; /* Cambia el color de la línea divisoria a blanco */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+.reseñas form {
+    margin-top: 30px; /* Añade espacio superior al formulario */
+}

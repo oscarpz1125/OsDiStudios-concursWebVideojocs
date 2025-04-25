@@ -75,11 +75,61 @@
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="margen5">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vtFhDrMIZjE?si=ToBN3oeZ_ZDnHtt9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div class="container mt-5">
+            <h2 class="text-center text-light mb-4">RESEÑAS</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="reseñas bg-dark text-light p-4 rounded shadow">
+                        <!-- Reseñas existentes -->
+                        <div class="mb-4">
+                            <h5 class="fw-bold">⭐️⭐️⭐️⭐️⭐️ - Diego M.</h5>
+                            <p>¡Increíble juego! La jugabilidad es súper fluida y los gráficos espectaculares.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h5 class="fw-bold">⭐️⭐️⭐️⭐️ - Oscar P.</h5>
+                            <p>Muy realista, aunque me gustaría que mejoraran un poco el modo carrera.</p>
+                        </div>
+                        <hr class="text-light">
+
+                        <h4 class="mb-3">Deja tu reseña</h4>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="puntuacion" class="form-label">Puntuación:</label>
+                                <select class="form-control" id="puntuacion" required>
+                                    <option value="">Selecciona</option>
+                                    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                                    <option value="4">⭐️⭐️⭐️⭐️</option>
+                                    <option value="3">⭐️⭐️⭐️</option>
+                                    <option value="2">⭐️⭐️</option>
+                                    <option value="1">⭐️</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="comentario" class="form-label">Comentario:</label>
+                                <textarea class="form-control" id="comentario" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+
+    </div>
+
+    <div class="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/vtFhDrMIZjE?si=ToBN3oeZ_ZDnHtt9"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
 
     <footer class="bg-dark text-light py-4">
         <div class="container">
