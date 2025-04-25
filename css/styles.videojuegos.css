@@ -14,20 +14,20 @@ body {
     font-size: 50px;
     color: #ffffff; /* Título principal en blanco */
     margin-top: 20px;
-    margin-right: -50px;
+    margin-left: 100px;
 }
 
 .dinero {
     color: #ffcc00; /* Precio destacado en dorado */
     margin-top: 10px;
-    margin-right: -50px;
+    margin-left: 100px;
 }
 .dinero2{
     color: #d3d3d3;
-    margin-right: -50px;
+    margin-left: 100px;
 }
 .margen10{
-    margin-right: -50px;
+    margin-left: 100px;
 }
 .foto {
     margin-left: 100px;
