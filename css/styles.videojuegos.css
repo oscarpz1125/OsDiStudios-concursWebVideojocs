@@ -5,6 +5,9 @@ body {
     color: #d3d3d3; /* Color gris claro para el texto general */
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column; /* Asegura que el contenido y el footer estén en una columna */
+    min-height: 100vh; /* Hace que el cuerpo ocupe al menos el alto de la ventana */
 }
 
 .fuente {
@@ -57,6 +60,10 @@ img[alt="Minecraft"] {
     background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el texto */
     padding: 15px; /* Añade espacio interno al texto */
     border-radius: 10px; /* Bordes redondeados para el fondo */
+}
+
+.container {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
 }
 
 .container h2 {
@@ -125,11 +132,15 @@ img[alt="Minecraft"] {
 footer {
     background-color: #121212; /* Fondo oscuro */
     color: #d3d3d3; /* Texto gris claro */
-    padding: 20px 0; /* Espaciado interno */
+    padding: 20px; /* Espaciado interno */
     display: flex; /* Usa flexbox para centrar */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     text-align: center; /* Asegura que el texto esté centrado */
+    position: relative; /* Posición relativa para que no se fije */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin-top: auto; /* Empuja el footer hacia abajo si hay espacio sobrante */
 }
 
 footer p {
@@ -178,10 +189,10 @@ footer ul li a:hover {
 }
 .video-container {
 position: relative;
-width: 90%;/* Usa el 90% del ancho del contenedor */
+width: 60%;/* Usa el 90% del ancho del contenedor */
 max-width: 1000px;/* Más ancho que antes */
 margin: 40px auto;/* Centrado */
-padding-top: 42%;/* Más corto (menor que 56.25% para que no sea tan alto) */
+padding-top: 30%;/* Más corto (menor que 56.25% para que no sea tan alto) */
 }
 .video-container iframe {
 position: absolute;
@@ -228,3 +239,9 @@ textarea.form-control, input.form-control {
 .reseñas form {
     margin-top: 30px; /* Añade espacio superior al formulario */
 }
+
+.reseña {
+    text-align: center; /* Centra el texto */
+}
+.textocentrado{
+    text-align: ;
